@@ -1,7 +1,7 @@
 function login()
 {  
-   var usname=document.myform.username.value;
-   var psword=document.myform.pword.value;
+   var usname=document.getElementById("username");
+   var psword=document.getElementById("password");
    if(usname =="hello" && psword =="hello")
    {
        window.open("success.html");
